@@ -1,0 +1,36 @@
+[project]
+name = "credit_classification_pipeline"
+version = "0.1.0"
+requires-python = ">=3.14"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+  { name = "Lennon Cruz", email = "" }
+]
+
+dependencies = [
+    "scikit-learn",
+    "pandas",
+    "pyarrow",
+    "xgboost",
+    "mlflow",
+    "feast",
+    "fastapi",
+    "pydantic",
+    "pyyaml"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "jupyter",
+    "pre-commit",
+]
+
+[tool.ruff]
+line-length = 88
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"

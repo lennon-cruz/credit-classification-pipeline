@@ -1,0 +1,79 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Data (keep medallion folder structure)
+data/**
+!data/**/
+!data/**/.gitkeep
+
+# Feast
+feature_repo/data/
+feature_repo/*.db
+feature_repo/.feastignore
+
+# MLflow
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Model artifacts (keep folder)
+models/**
+!models/.gitkeep
+*.pkl
+*.joblib
+*.onnx
+*.h5
+*.pt
+*.pth
+*.cbm
+*.model
+
+# uv / lock noise (keep uv.lock if you commit it for Docker)
+# uv.lock
+
+# Logs / temp
+*.log
+tmp/
+temp/
+*.tmp
+
+# Local
+.local/

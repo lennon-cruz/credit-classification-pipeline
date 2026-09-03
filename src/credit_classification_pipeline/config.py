@@ -1,0 +1,1 @@
+# Pydantic validation for configs/model.yaml
