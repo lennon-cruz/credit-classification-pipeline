@@ -619,7 +619,7 @@ dependencies = [
     { name = "xgboost" },
 ]
 
-[package.optional-dependencies]
+[package.dev-dependencies]
 dev = [
     { name = "jupyter" },
     { name = "pre-commit" },
@@ -631,19 +631,22 @@ dev = [
 requires-dist = [
     { name = "fastapi" },
     { name = "feast" },
-    { name = "jupyter", marker = "extra == 'dev'" },
     { name = "mlflow" },
     { name = "pandas" },
-    { name = "pre-commit", marker = "extra == 'dev'" },
     { name = "pyarrow" },
     { name = "pydantic" },
-    { name = "pytest", marker = "extra == 'dev'" },
     { name = "pyyaml" },
-    { name = "ruff", marker = "extra == 'dev'" },
     { name = "scikit-learn" },
     { name = "xgboost" },
 ]
-provides-extras = ["dev"]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "jupyter" },
+    { name = "pre-commit" },
+    { name = "pytest" },
+    { name = "ruff" },
+]
 
 [[package]]
 name = "cryptography"
