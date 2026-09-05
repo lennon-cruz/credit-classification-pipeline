@@ -17,7 +17,8 @@ dependencies = [
     "feast",
     "fastapi",
     "pydantic",
-    "pyyaml"
+    "pyyaml",
+    "kagglehub>=1.0.2",
 ]
 
 [tool.ruff]
@@ -33,4 +34,5 @@ dev = [
     "ruff",
     "jupyter",
     "pre-commit",
+    "ipykernel>=7.3.0",
 ]
