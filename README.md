@@ -79,3 +79,7 @@ make train     # run modeling/train.py
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## [TEMP] DEV
+
+uv run python -m ipykernel install --user --name=credit_pipeline --display-name="Credit Pipeline"
