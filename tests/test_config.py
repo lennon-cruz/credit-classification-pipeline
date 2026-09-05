@@ -1,4 +1,5 @@
-from credit_classification_pipeline.config import load_config, PROJECT_ROOT
+from credit_classification_pipeline.config import PROJECT_ROOT, load_config
+
 
 def test_load_data_config():
     config = load_config("data.yaml")

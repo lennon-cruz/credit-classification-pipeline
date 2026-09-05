@@ -1,5 +1,6 @@
 from pathlib import Path
 from typing import Any
+
 import yaml
 
 # Resolve project root relative to this file
