@@ -2,3 +2,5 @@ sources:
   give_me_some_credit:
     kaggle_path: "brycecf/give-me-some-credit-dataset"
     local_dir: "data/raw/give_me_some_credit"
+    train_data: "cs-training.csv"
+    test_data: "cs-test.csv"
