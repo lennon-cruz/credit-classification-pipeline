@@ -19,6 +19,7 @@ dependencies = [
     "pydantic",
     "pyyaml",
     "kagglehub>=1.0.2",
+    "pandera>=0.33.1",
 ]
 
 [tool.ruff]
